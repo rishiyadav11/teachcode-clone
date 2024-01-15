@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff3d;
+}
+
+body::-webkit-scrollbar{
+    
+    display: none;
+}
+
+nav{
+    height:5.1vw;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0.2vw 0.3vw rgba(0,0,0,.075);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 5.3vw;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+nav>a>img{
+    height: 1.5vw;
+    cursor: pointer;
+}
+
+
+#page1{
+    margin-top: 5.1vw;
+    height:calc( 100% - 5.1vw);
+    /* margin-top: 6.2vw;
+    height: 100%; */
+    width:100%;
+    background-image: url(https://teachcode.in/home/bg-main.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+
+}
+
+
+#page1>h1{
+    margin-top: 5.8vw;
+    font-family: sans-serif;
+    font-size: 3.8vw;
+    font-weight: 600;
+    opacity: 0.9;
+    text-align: center;
+    line-height: 4.3vw;
+    letter-spacing: 0.1vw;
+    margin-bottom: 2vw;
+}
+
+#page1>h3{
+    font-size: 1.7vw;
+    font-family: sans-serif;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+#page1>#btn{
+    margin-top: 4.7vw;
+    background-color: #0E0E0E;
+    height: 8.5%;
+    width: 18%;
+    border-radius: 300px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5vw;
+}
+
+#page1>#col{
+    margin-top: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9vw;
+}
+
+#col>.col-parts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6vw;
+    gap: 0.7vw;
+
+}
+
+.col-parts img{
+    height: 1.6vw;
+}
+
+
+#page2{
+    height: 80%;
+    width: 100%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page2>h2{
+    font-size: 3.4vw;
+    /* background-color: green; */
+    padding-right: 2.5vw;
+}
+
+#page2>#works-sec{
+    /* background-color: aquamarine; */
+    height: 40vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+#works-sec>.works{
+    /* border: 2px solid black; */
+    /* background-color: rebeccapurple; */
+    height: 70%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.works img{
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+    margin-bottom: 1vw;
+    border-radius: 20px;
+}
+
+
+.works>h3{
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+
+#head2{
+    font-size: 1.5vw;
+    text-align: center;
+    height: 6vw;
+    /* background-color: red; */
+    margin-bottom: 4vw;
+}
+
+#page3{
+    height: 170%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vw;
+}
+
+#page3 .container{
+    /* background-color: paleturquoise; */
+    /* border: 2px solid black; */
+    height: 90%;
+    width: 50%;
+    display: flex;
+
+}
+
+.container .text-sec{
+    height: 100%;
+    width: 70%;
+    /* background-color: rgb(198, 212, 186); */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 1vw;
+    padding-left: 1vw;
+}
+
+.text-sec>#btn{
+    margin-top: 3vw;
+    height: 1vw;
+    width: 5vw;
+    background-color: #9B7FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7vw;
+    border-radius: 100px;
+}
+#btn h4{
+
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+
+.text-sec h2{
+    margin-top: 1vw;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.text-sec h3{
+    margin-top: 1vw;
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: 2vw;
+}
+
+
+.container img{
+    height: 100%;
+    width: 28%;
+    /* background-color: rgb(0, 255, 170); */
+    border-radius: 23px;
+    border: 7px solid black;
+    object-fit: cover;
+}
+
+
+#head3{
+    margin-top: 8vw;
+    font-size: 2vw;
+    text-align: center;
+    height: 4vw;
+    /* background-color: saddlebrown; */
+    margin-bottom: 4vw;
+    
+}
+
+
+#testimonials{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+#testimonials .test{
+    width: 30%;
+    height: 100%;
+    background-color: #E9E3FF;
+    border-radius: 50px;
+}
+
+
+.test .ans{
+    width: 100%;
+    height: 60%;
+    /* background-color: palevioletred; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2vw;
+    align-items: start;
+}
+
+.ans h3{
+    font-size: 1.4vw;
+    font-weight: 200;
+    line-height: 1.9vw;
+}
+
+
+
+.ans .dot-dot{
+    height: 2.4vw;
+    color: #9B7FFF;
+}
+
+
+.test .test-user{
+    height: 40%;
+    width: 100%;
+    /* background-color: seagreen; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1vw;
+}
+
+
+.test-user img{
+    height: 3.2vw;
+    margin-left: 1.4vw;
+    border-radius: 50%;
+}
+
+.test-user h3{
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+.test-user h3>span{
+    opacity: 0.8;
+    font-size: 1vw;
+}
+
+#border{
+    margin-top: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#border img{
+    height: 1.5vw;
+}
+
+#create-sec{
+    margin-top: 2vw;
+    height: 60%;
+    width: 100%;
+    /* background-color: olive; */
+    background-image: url(https://teachcode.in/home/shape-4.png), url(https://teachcode.in/home/shape-5.png);
+    background-position: 0,100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+#create-sec>h2{
+    font-size: 3vw;
+    font-weight: 600;
+    
+}
+
+#create-sec>button{
+    background-color: #000000ea;
+    color: #FFF;
+    padding: 1.5vw 5vw;
+    border-radius: 50px;
+    font-size: 1.3vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+#footer{
+    height: 12%;
+    width: 100%;
+    background: #FCE6DF;
+    display: flex;
+    align-items: center;
+    justify-self: start;
+    padding-left: 12vw;
+    gap: 2vw;
+}
+
+#footer>a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: #000000ea;
+}
